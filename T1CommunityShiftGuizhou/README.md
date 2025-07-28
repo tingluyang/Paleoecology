@@ -1,5 +1,7 @@
-About the script
+About the Script
 
-Here is the R codes used in the paper "Quantitative insights into the community shifts of bivalves following the end-Permian mass extinction: new evidences from Guizhou, southwestern China" which is under submission.
+This repository contains the R code used in the paper “Quantitative insights into the community shifts of bivalves following the end-Permian mass extinction: new evidence from Guizhou, southwestern China,” currently under submission.
 
-The raw data are attached in the supplimental materials of the paper.
+Please note that some additional visualization enhancements were completed using vector graphic software.
+
+The raw data used in the analyses are provided in the supplementary materials of the manuscript.
