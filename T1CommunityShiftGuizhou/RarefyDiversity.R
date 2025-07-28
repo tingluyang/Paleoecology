@@ -1,5 +1,8 @@
 library("iNEXT")
+library("openxlsx")
 
+# Load Data
+AssociationCounts <- read.xlsx("Statistic_tables.xlsx", 2,  colNames =  TRUE, rowNames = TRUE)
 # Using the defalut function iNext to calculate related results
 A2.iNEXT <- iNEXT(t(AssociationCounts)[,1], q=c(0,1,2))
 B2.iNEXT <- iNEXT(t(AssociationCounts)[,2], q=c(0,1,2))
